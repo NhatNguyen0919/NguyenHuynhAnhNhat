@@ -1,0 +1,30 @@
+var sum_to_n_a = function (n) {
+    var sum = 0;
+    for (var i = 0; i <= n; i++) {
+        sum += i
+        console.log("check i : ", i)
+    }
+    console.log("check sum : ", sum)
+}
+
+var sum_to_n_b = function (n) {
+    var sum = 0;
+    var i = 0;
+    while (i < n) {
+        i++
+        sum += i;
+        console.log("check i : ", i)
+    }
+    console.log("check sum : ", sum)
+}
+
+var sum_to_n_c = function (n) {
+    var sum = 0;
+    var i = 0
+    do {
+        i++
+        sum += i;
+        console.log("check i :", i)
+    } while (i < n);
+    console.log("check sum :", sum)
+}
